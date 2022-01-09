@@ -6,37 +6,32 @@
     opacity: 0.9;
 }
 
-html {
-   margin: 0% 4%; 
+body {
+   margin: 0 auto; 
   
 }
 
 header {
-    height: 69px;
+    min-height: 69px;
     position: fixed;  
     width: 100%;
-    top: 0;  
     opacity: 1;
     z-index: 10;
+    border-bottom: 1px solid seashell;
 }
 
 .logo {
     display: inline-block;
+    padding-top: 1%;
   
 }
 
-.logo img {
-    vertical-align: middle; 
-}
-
-header nav {
+nav {
     display: inline-block;
-    height: 50px;
-    position: relative;
-    margin: auto 0px;
-    padding: auto 0px;
     position: absolute;
-    right: 0px;
+    margin: auto 0;
+    padding-top: 1%;
+    height: 50px;
     width: 700px;
 }
 
@@ -49,6 +44,7 @@ header ul {
 header li {
     display: inline-block;
     padding: 0px 20px;
+    text-decoration: underline;
 }
 
 #above-the-fold {
