@@ -23,16 +23,18 @@ header {
 .logo {
     display: inline-block;
     padding-top: 1%;
+    padding-left: 15px;
   
 }
 
 nav {
     display: inline-block;
-    position: absolute;
+    position: relative;
     margin: auto 0;
     padding-top: 1%;
     height: 50px;
     width: 700px;
+    float: right;
 }
 
 
