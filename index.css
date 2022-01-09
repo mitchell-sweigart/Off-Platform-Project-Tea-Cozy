@@ -1,0 +1,154 @@
+* {
+    font-family: Helvetica, sans-serif;
+    font: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+html {
+   margin: 0% 4%; 
+  
+}
+
+header {
+    height: 69px;
+    position: fixed;  
+    width: 100%;
+    top: 0;  
+    opacity: 1;
+    z-index: 10;
+}
+
+.logo {
+    display: inline-block;
+  
+}
+
+.logo img {
+    vertical-align: middle; 
+}
+
+header nav {
+    display: inline-block;
+    height: 50px;
+    position: relative;
+    margin: auto 0px;
+    padding: auto 0px;
+    position: absolute;
+    right: 0px;
+    width: 700px;
+}
+
+
+header ul {
+    list-style-type: none;
+
+}
+
+header li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#above-the-fold {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+    position: relative;
+    top: 69px;
+} 
+
+.mission-info {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+#tea-of-the-month {
+    width: 100%;
+    position: relative;
+    margin-top: 10%;
+}
+
+.teas-of-the-month-text {
+    text-align: center;
+    position: relative;
+    width: 100%;
+ 
+}
+
+.specific-teas-of-the-month {
+    margin: 5px;
+    text-align: center;
+}
+
+#tea-of-the-month-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#tea-of-the-month-images img {
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+#location-information {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+}
+
+#location-heading {
+    position: relative;
+    margin: 20px;
+    padding-top: 6%;
+    text-align: center;
+    background: rgba(0, 151, 19, 0.0) /* without this the background of the div would be black and not the image of the coffee cup*/
+}
+
+#locations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(0, 151, 19, 0.0) /* without this the background of the div would be black and not the image of the coffee cup*/
+    
+}
+
+.location {
+    width: 300px;
+    height: 350px;
+    margin: 15px 40px;
+    opacity: 1;
+    text-align: center;
+
+}
+
+.location h3 {
+    font-size: 1.5rem;
+}
+
+.location p {
+    font-size: 1.4rem;
+}
+
+.location-text {
+    position: relative;
+    top: 20%;
+}
+
+#contact-info {
+    height: 200px;
+    text-align: center;
+}
